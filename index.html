@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="contenedor_formulario">
+        <form action="">
+            <div class="info_cliente">
+                <div class="titulo">
+                    <h2>Información del Cliente</h2>
+                </div>
+                <div class="info">
+                    <div class="info_cliente_izq">
+                        <div class="campo">
+                            <label for="">
+                                <input type="text" placeholder="Código (ID)" required >
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="text" placeholder="Nombres" required >
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="text" placeholder="Apellidos" required >
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="number" placeholder="Teléfono" required >
+                            </label>
+                        </div>
+                    </div>
+                    <div class="info_cliente_der">
+                        <div class="campo">
+                            <label for="">
+                                <input type="text" placeholder="Dirección" required >
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="email" placeholder="Correo Electrónico" required >
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <select name="plan" id="plan" required>
+                                    <option value="" disabled selected>-- Elije el Plan --</option>
+                                    <option value="1">10 MB</option>
+                                    <option value="2">20 MB</option>
+                                    <option value="3">50 MB</option>
+                                    <option value="4">100 MB</option>
+                                    <option value="5">200 MB</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="campo">
+                            <label for="">
+                                <input type="number" placeholder="Precio" required >
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="info_tecnico">
+                <div class="info_tecnico_titulo">
+                    <h2>Informe Técnico</h2>
+                </div>
+                <div class="info_tecnico_form">
+                    <div class="campo">
+                        <label for="">
+                            <input type="texte" placeholder="OLT" required >
+                        </label>
+                    </div>
+                    <div class="campo">
+                        <label for="">
+                            <input type="email" placeholder="Splitter" required >
+                        </label>
+                    </div>
+                    <div class="campo">
+                        <label for="">
+                            <input type="email" placeholder="ONT" required >
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="botones">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
